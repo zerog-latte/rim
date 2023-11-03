@@ -1,0 +1,22 @@
+--- # Food
+- _id: Cucumber
+  cat: greens
+  desc: Makes cats scared
+  opts:
+    - weight
+    - quality
+    - shape
+- _id: Tomato
+  cat: greens
+  desc: Is not green
+  opts:
+    - weight
+    - quality
+    - color
+- _id: Beef
+  cat: meat
+  desc: Once it said Mooo last time
+  opts:
+    - weight
+    - quality
+    - part

@@ -1,0 +1,38 @@
+--- # Food
+- _id: foodstuff
+  desc: All you can eat or drink
+  subcats:
+  - greens
+  - meat
+  - meals
+  - beverage
+  - liquors
+# Food subcats
+- _id: greens
+  desc: Grows in a garden
+- _id: meat
+  desc: Says Moooo
+- _id: meals
+  desc: Is full of ingredients
+- _id: beverage
+  desc: Is liquid
+- _id: liquors
+  desc: Makes you dizzy
+
+--- # Weapons
+- _id: weapons
+  desc: Made for killing
+  subcats:
+  - melee
+  - ranged
+  - exotic
+- _id: melee
+  desc: To look into someone's eyes
+  subcats:
+  - pointed
+  - blunt
+  - edged
+- _id: ranged
+  desc: For the introverts
+- _id: exotic
+  desc: Is it a frying pan?
