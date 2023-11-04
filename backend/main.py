@@ -1,10 +1,17 @@
 # from typing import Union
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from defs_items import q_items_by_cat, q_all_items, q_categories
 from defs_items import q_item_by_id, q_item_search
 
 app = FastAPI()
-
+app.add_middleware(
+  CORSMiddleware,
+  allow_origins=["http://localhost:8080"],
+  allow_credentials=True,
+  allow_methods=["*"],
+  allow_headers=["*"],
+)
 
 @app.get('/')
 def get_root():
