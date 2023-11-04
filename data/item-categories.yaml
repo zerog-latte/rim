@@ -36,3 +36,33 @@
   desc: For the introverts
 - _id: exotic
   desc: Is it a frying pan?
+- _id: pointed
+  desc: Spears
+- _id: blunt
+  desc: Crushes limbs
+- _id: edged
+  desc: Sharp as razor
+
+--- # Money
+- _id: money
+  desc: The medium of exchange
+  subcats: [coins, banknotes, credit, valuables]
+- _id: coins
+  desc: Usually round
+- _id: banknotes
+  desc: Paper shreds
+- _id: credit
+  desc: Cards and chips
+- _id: valuables
+  desc: Filthy lucre
+
+--- # Wearables
+- _id: wearables
+  desc: Covers your body
+  subcats: [clothing, armor, accessories, hazmat]
+- _id: clothing
+  desc: Made of cloth
+  subcats: [pants, jackets, shirts, hats]
+- _id: armor
+  desc: Protects you
+  subcats: [armor vests, armor helmets, armor plates, armor suit, armor exo]
