@@ -1,0 +1,16 @@
+services:
+  backend:
+    container_name: rim-backend
+    env_file:
+      - ./backend/.env
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
+    networks:
+      - rim
+networks:
+  rim:
+    driver: bridge
+    name: rim
