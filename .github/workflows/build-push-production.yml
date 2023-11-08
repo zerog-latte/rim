@@ -45,7 +45,7 @@ jobs:
       id: getversion
       run: |
         export SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`
-        export VERSION=$(cat ./frontend/version)-$SHORT_SHA
+        export VERSION=$(cat ./frontend/version)
         echo "version=$(echo $VERSION)" >> $GITHUB_OUTPUT
         echo Image tag versions will be latest and:
         echo version: $VERSION

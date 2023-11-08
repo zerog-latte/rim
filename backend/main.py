@@ -7,10 +7,10 @@ from defs_items import q_item_by_id, q_item_search
 app = FastAPI()
 app.add_middleware(
   CORSMiddleware,
-  allow_origins=["http://localhost:8080"],
+  allow_origins=['http://localhost:8080', 'http://rim.zerog.cc', 'https://rim.zerog.cc'],
   allow_credentials=True,
-  allow_methods=["*"],
-  allow_headers=["*"],
+  allow_methods=['*'],
+  allow_headers=['*'],
 )
 
 @app.get('/')
