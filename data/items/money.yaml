@@ -1,0 +1,26 @@
+--- # Credit
+- _id: Debit card
+  cat: credit
+  desc: Just a simple bank card
+  opts:
+    - bank
+    - cardholder
+    - account
+    - currency
+    - limit
+- _id: Credchip
+  cat: credit
+  desc: Anonymous money
+  opts:
+    - currency
+    - amount
+
+--- # Valuables
+- _id: Secure metal bar
+  cat: valuables
+  desc: Has holographic embossment
+  opts:
+    - weight
+    - mint
+    - amount
+    - currency

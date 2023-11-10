@@ -1,0 +1,36 @@
+--- # Melee
+- _id: Schiavona
+  cat: edged
+  desc: XVII century sword
+  opts:
+    - weight
+    - quality
+- _id: Impact Hammer
+  cat: blunt
+  desc: Can deflect projectiles (if you're lucky enough)
+  opts:
+    - weight
+    - quality
+- _id: Bear Spear
+  cat: pointed
+  desc: For a bear hunt
+  opts:
+    - weight
+
+--- # Ranged
+- _id: AAC Honey Badger
+  cat: ranged
+  desc: Is named after the ultimate badass
+  opts:
+    - weight
+    - ammo
+    - addons
+
+--- # Exotic
+- _id: Alien Materiel Destructor
+  cat: exotic
+  desc: Dissolves molecular bonds
+  opts:
+    - weight
+    - ammo
+    - is_locked

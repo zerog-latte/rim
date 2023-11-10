@@ -46,11 +46,7 @@
 --- # Money
 - _id: money
   desc: The medium of exchange
-  subcats: [coins, banknotes, credit, valuables]
-- _id: coins
-  desc: Usually round
-- _id: banknotes
-  desc: Paper shreds
+  subcats: [credit, valuables]
 - _id: credit
   desc: Cards and chips
 - _id: valuables
@@ -59,10 +55,10 @@
 --- # Wearables
 - _id: wearables
   desc: Covers your body
-  subcats: [clothing, armor, accessories, hazmat]
+  subcats: [clothing, armor]
 - _id: clothing
   desc: Made of cloth
-  subcats: [pants, jackets, shirts, hats]
+  subcats: [pants, jackets]
 - _id: armor
   desc: Protects you
-  subcats: [armor vests, armor helmets, armor plates, armor suit, armor exo]
+  subcats: [armor vests]
