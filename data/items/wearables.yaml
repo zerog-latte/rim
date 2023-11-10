@@ -1,0 +1,26 @@
+--- # Jackets
+- _id: Leather jacket
+  cat: jackets
+  desc: 80's rocker style jacket
+  opts:
+    - weight
+    - armor
+    - quality
+
+--- # Pants
+- _id: Cargo pants
+  cat: pants
+  desc: Simple pants for working class
+  opts:
+    - weight
+    - quality
+
+--- # Armor vests
+- _id: IOTV Gen II vest
+  cat: armor vests
+  desc: XXI century army vest
+  opts:
+    - weight
+    - quality
+    - armor
+    - addons
